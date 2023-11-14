@@ -5,7 +5,6 @@ const ctx = canvas.getContext("2d");
 const canvasWidth = (canvas.width = 600);
 
 const canvasHeight = (canvas.height = 600);
-
 const dogImage = new Image();
 const imageWidth = 573;
 const imageHeight = 523;
