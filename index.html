@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Glass+Antiqua&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <label for="animation">Choose an animation</label>
-    <select name="animation" id="animation" multiple size="11">
-      <option value="">--please choose an animation--</option>
+    <button class="Text" id="Text">Press to choose an animation</button>
+    <select name="animation" id="animation" multiple size="10">
       <option value="normal">normal</option>
       <option value="fly">fly</option>
       <option value="fly down">fly down</option>
@@ -22,7 +28,7 @@
       <option value="killed">killed</option>
       <option value="semi damaged">semi damaged</option>
     </select>
-    <button type="submit" id="submit"></button>
+    <button type="submit" id="submit">Animate</button>
     <canvas class="canvas" id="canvas"> </canvas>
     <script src="index.js"></script>
   </body>
