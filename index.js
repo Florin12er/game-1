@@ -10,7 +10,7 @@ const canvasHeight = (canvas.height = 600);
 const dogImage = new Image();
 const imageWidth = 573;
 const imageHeight = 523;
-dogImage.src = "/home/sebastian/game-1/game/shadow_dog.png";
+dogImage.src = "https://github.com/Florin12er/game-1/blob/main/game/shadow_dog.png?raw=true";
 
 let dogAnimation = 0;
 let dogChange = 0;
